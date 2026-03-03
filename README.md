@@ -61,12 +61,12 @@ User (Streamlit UI)
 ↓
 FastAPI Backend (/chat)
 ↓
-┌─────────────────────────┐
-│ Persona Detection │
-│ Sentiment Analyzer │
-│ Response Generator │
-│ Escalation Logic │
-└─────────────────────────┘
+
+Persona Detection
+Sentiment Analyzer
+Response Generator
+Escalation Logic
+
 ↓
 JSON Response → UI
 
@@ -89,5 +89,6 @@ JSON Response → UI
 2. run the fastapi server using ```uvicorn main:app --reload
 3. wait for fastapi server to show "INFO: Application startup complete."
 4. then start the streamlit app in another terminal using "streamlit run streamlit_app.py"
+
 
 
