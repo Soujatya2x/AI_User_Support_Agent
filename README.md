@@ -84,17 +84,10 @@ JSON Response → UI
 
 ---
 
-# Installation
-
-##  Clone Repository
-
-```bash
-git clone https://github.com/yourusername/ai-support-agent.git
-cd ai-support-agent```
-
-# How to run
+## How to run
 1. first navigate to directory app
 2. run the fastapi server using ```uvicorn main:app --reload
 3. wait for fastapi server to show "INFO: Application startup complete."
 4. then start the streamlit app in another terminal using "streamlit run streamlit_app.py"
+
 
